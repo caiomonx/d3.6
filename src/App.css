@@ -1,0 +1,26 @@
+/* CSS Padrão Limpo */
+.counter {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #aa3bff;
+  background: rgba(170, 59, 255, 0.1);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 24px;
+}
+
+.counter:hover {
+  border-color: rgba(170, 59, 255, 0.5);
+}
+
+.counter:focus-visible {
+  outline: 2px solid #aa3bff;
+  outline-offset: 2px;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+}
